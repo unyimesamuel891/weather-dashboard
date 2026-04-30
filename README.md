@@ -1,4 +1,4 @@
-# SKIES —  A Weather Dashboard
+# SKYES —  A Weather Dashboard
 
 A clean, dark-themed weather dashboard built with vanilla JavaScript and Chart.js.
 
