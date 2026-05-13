@@ -1,26 +1,27 @@
-# SKYES —  A Weather Dashboard
+# SKYES — Weather Dashboard
 
-A clean, dark-themed weather dashboard built with vanilla JavaScript and Chart.js.
+A dark-themed weather dashboard I built to practice working with external APIs and async JavaScript patterns.
 
-## Live Demo
-[weather-dashboard-theta-cyan.vercel.app](https://weather-dashboard-theta-cyan.vercel.app)
-![preview](preview.png)
+**Live Demo:** [weather-dashboard-theta-cyan.vercel.app](https://weather-dashboard-theta-cyan.vercel.app)
 
-## Features
-- Real-time weather data via OpenWeatherMap API
-- 24-hour temperature forecast line chart
-- Humidity, wind, visibility & pressure stats
-- 5-day outlook forecast
-- Async/await with parallel API calls using Promise.all
-- Fully responsive
+![preview](./preview.png)
 
-## Tech Stack
+## What it does
+
+- Fetches real-time weather + 5-day forecast from OpenWeatherMap
+- Renders a 24-hour temperature line chart with Chart.js
+- Displays humidity, wind speed, visibility and pressure at a glance
+- Fires both API calls simultaneously using `Promise.all` to cut load time in half
+
+## Built with
+
 - Vanilla JavaScript (ES6+)
 - Chart.js
 - OpenWeatherMap API
-- HTML/CSS
+- HTML & CSS
 
-## Setup
-1. Get a free API key from [openweathermap.org](https://openweathermap.org/api)
-2. Replace `YOUR_API_KEY` in `index.html`
-3. Open in browser or deploy to Vercel
+## Running locally
+
+1. Grab a free API key at [openweathermap.org](https://openweathermap.org/api)
+2. Open `index.html` and replace `YOUR_API_KEY` with your key
+3. Open the file in your browser — no build step needed
